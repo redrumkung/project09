@@ -1,0 +1,37 @@
+
+        .container {
+            border: 1px dashed salmon;
+            min-height: 200px;
+            position: relative;
+        }
+        .item {
+            background-color: aqua;
+            border: 1px solid blue;
+            padding: 4px;
+        }
+        .item2 {
+            background-color: blueviolet;
+            position: absolute;
+            bottom: 50px;
+            /* right: 50%; */
+            top:  -10px;
+            left: 10px;
+            right: 10px;
+            bottom: 10px;
+            z-index: 1;
+            /* opacity ปรับความโปร่ง */
+            /* opacity: 0.5; */
+        }
+        .item2x {
+            background-color: antiquewhite;
+            position: absolute;
+            right: 20px;
+            left: 20px;
+            top: 20px;
+            bottom: 50%;
+        }
+        .item1 {
+            position: relative;
+            z-index: 2;
+            opacity: 0.8;
+        }
